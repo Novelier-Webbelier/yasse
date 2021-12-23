@@ -1,0 +1,14 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: none;
+}
+
+.main__btn {
+  position: absolute;
+  bottom: 30px;
+  right: 35px;
+  border-radius: 5px;
+}

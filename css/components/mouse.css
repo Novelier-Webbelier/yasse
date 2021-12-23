@@ -1,0 +1,7 @@
+.mouse {
+  transition: none;
+}
+
+*:hover {
+  cursor: none;
+}
