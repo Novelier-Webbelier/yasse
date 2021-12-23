@@ -1,6 +1,6 @@
 # YASSE
 
-## [최종 사이트](https://novelier.github.io/YASSE)
+## [최종 사이트](https://nvelier-webbelier.github.io/YASSE)
 
 ## YASSE?
 

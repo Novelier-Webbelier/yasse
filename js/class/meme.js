@@ -6,7 +6,7 @@ export const images = [];
 function appendImages() {
   for (let i = 0; i < 21; i++) {
     images.push({
-      address: `https://raw.githubusercontent.com/Novelier/YASSE/main/img/components${i}.jpeg`,
+      address: `https://raw.githubusercontent.com/Novelier-Webbelier/YASSE/main/img/components${i}.jpeg`,
     });
   }
 
@@ -15,7 +15,7 @@ function appendImages() {
       address: `https://raw.githubusercontent.com/Novelier/YASSE/main/img/gif/components${i}.gif`,
     });
   }
-};
+}
 
 appendImages();
 
@@ -27,7 +27,7 @@ export class Meme extends Dazzle {
 
     super();
 
-    this.section = document.querySelector('.meme');
+    this.section = document.querySelector(".meme");
 
     this.image = [];
     this.imgTag = undefined;
@@ -47,22 +47,22 @@ export class Meme extends Dazzle {
     setTimeout(() => {
       this.stop();
     }, this.playTime);
-  };
+  }
 
   stop() {
     this.imgTag.remove();
-  };
+  }
 
   appendImageTag() {
-    this.imgTag = document.createElement('img');
+    this.imgTag = document.createElement("img");
     this.imgTag.src = images[this.index].address;
 
-    this.imgTag.style.position = 'absolute';
+    this.imgTag.style.position = "absolute";
     this.imgTag.style.left = `${this.positionList[0] - this.imgTag.width}px`;
     this.imgTag.style.top = `${this.positionList[1] - this.imgTag.width}px`;
 
     Display.display.add(this.imgTag, this.className);
 
     this.section.appendChild(this.imgTag);
-  };
-};
+  }
+}
