@@ -44,10 +44,10 @@
 
 ## LICENSE
 
-해당 소스코드는 [Apache License 2.0](LICENSE) 를 따릅니다
+해당 소스코드는 [MIT](LICENSE) 를 따릅니다
 
 ### Email?
 
-개발자 이메일 : ethan.seolso@gmail.com
+개발자 이메일 : novelier.webbelier@gmail.com
 
 ###### Novel Handicraft
